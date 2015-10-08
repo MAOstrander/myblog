@@ -1,0 +1,64 @@
+body {
+  font-family: Verdana;
+  text-align: center;
+  background-image: url(http://i428.photobucket.com/albums/qq9/Mathew_Ostrander/Float%20on_zpsd3rqgjre.png);
+  background-position: center;
+  background-size: cover;
+}
+
+a:visited {
+  color: red;
+}
+
+#blog-title, h1 {
+  text-align: center;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto 10px auto;
+  padding: 2%;
+  background: #ddd;
+}
+
+footer {
+  font-size: .75em;
+  font-style: italic;
+}
+
+.summary {
+  background-color: yellow;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+img {
+  border-radius: 50%;
+}
+
+/* Nav Bar stuff */
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.cleared {
+  clear: both;
+}
+
+.navigation > ul > li {
+  float: right;
+  list-style-type: none;
+  margin: 3px 8px;
+  border: 1px dashed purple;
+  padding: 5px;
+  font-family: "Comic Sans";
+  font-size: 18px;
+  background-color: #9f0;
+  cursor: pointer;
+}
+.navigation > ul > li:hover {
+  background-color: purple;
+}
